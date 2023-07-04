@@ -1,0 +1,40 @@
+online auction: 
+	-catch phrase : "make online transaction more alive !"
+
+technologies used:
+	-react: daisyui,react-router-dom,redux, tailwindcss, auth0
+	-auth0
+	-laravel : auth0,
+
+
+
+userStories:
+	-user can create rooms with assigned date for launch,
+	-user can bet on ongoing rooms,
+	-user can contact room creator incase winning the bet via chat system,
+	-user can chose anyone who had betten in the room if the deal wasnt properly closed with the winner,
+	-user can see chat history,
+	-user can search for rooms,
+	-user can manage his profile,
+	(advanced and optional)
+	-user can link his social media accounts and sync posting rooms,
+	
+
+sitemap:
+
+	home page : -recomandation
+		    -latest
+		    -ongoing rooms
+		    -create room
+	    
+
+
+	search : -by categorie
+		-by name
+		-by state (live or the date)
+		-starting price
+
+	profile : -edit
+		-my rooms (edit delete)
+		-mydeals history
+	
