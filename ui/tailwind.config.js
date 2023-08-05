@@ -1,25 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+const {nextui} = require("@nextui-org/react");
 export default {
   content: [
-    './src/**/*.html',
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        body:"#fffffe",
-        headline:"#272343",
-        paragraph:"#2d334a",
-        button:"#ffd803",
-        buttontext:"#272343",
-        stroke:"#272343",
-        main:"#fffffe",
-        highlight:"#ffd803",
-        secondary:"#e3f6f5",
-        tertiary:"#bae8e8"
-      }
-    },
+    extend: {},
   },
-  plugins: [require("daisyui")],
+  darkMode: "class",
+  plugins: [nextui()],
 }
 
